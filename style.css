@@ -1,4 +1,4 @@
-img {
+.mainPhotos {
     max-height: 250px;
     max-width: 250px;
     border: 5px solid yellow;
@@ -10,7 +10,11 @@ figure {
 
 body {
     background-color: blueviolet;
-    color: yellow;
-    font-family: "Lucida Console", "cursive";
+    color: blue;
 }
+.instaIcon {
+    height: auto;
+    max-width: 50px;
+}
+
 

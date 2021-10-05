@@ -3,31 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Basic HTML Page</title>
-
-  <link rel="stylesheet" type="text/css" href="style.css" />
-
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"/>
+    <style>
+        body {
+            font-family: "Sofia", sans-serif;
+        }
+    </style>
 </head>
 <body>
   <h1>About Abby</h1>
   <p>Abby is struggling to code and likes to rock climb. </p>
 
   <ul>
-  <li class="txtFont">Abby is secretly Wonder Woman</li>
+  <li>Abby is secretly Wonder Woman</li>
   <li>Abby likes to bathe in the blood of her enemies</li>
-  <li>Abby went to harvard with a PhD in bio engineering</li>
+  <li>Abby went to Harvard and got her degree in law</li>
   </ul>
 
   <figure>
-    <img src="assets/Unknown.jpeg" alt="Picture of me" />
+    <img class="mainPhotos" src="assets/Unknown.jpeg" alt="Picture of me" />
     <figcaption>Holding on for dear life</figcaption>
   </figure>
 
 <figure>
-    <img src="assets/wonderW.jpg" alt="Secret Idenity"/>
+    <img class="mainPhotos" src="assets/wonderW.jpg" alt="Secret Idenity"/>
     <figcaption>Abby's secret idenity</figcaption>
 </figure>
 
+  <figure>
+      <img class="mainPhotos" src="assets/harvardGrad.jpg" alt="Graduation Pic"/>
+      <figcaption>Abby graduating from Harvard</figcaption>
+  </figure>
 
+  <h2>how to contact me</h2>
+
+<a target="_blank" href="https://www.instagram.com/twilight/">
+    <img class="instaIcon" src="assets/instagramIcon.png" alt="Insta Icon"/>
+</a>
 
 </body>
 </html>
