@@ -9,12 +9,20 @@ figure {
 }
 
 body {
-    background-color: blueviolet;
-    color: blue;
+    color: yellow;
+    font-family: "Sofia", sans-serif;
+    background-image: url("assets/background.jpg");
 }
 .instaIcon {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,+70%);
     height: auto;
     max-width: 50px;
 }
 
-
+h2 {
+    position: absolute;
+    left: 43%;
+    top: 77%;
+}
